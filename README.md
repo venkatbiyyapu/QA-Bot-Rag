@@ -1,3 +1,7 @@
+Here's the updated README with a note about installing Docker:
+
+---
+
 # QA Bot
 
 ## Project Overview
@@ -35,7 +39,11 @@ This project is built using Python 3.10.
 
 ## Setup and Running the Project
 
-### Step 1: Clone the Repository
+### Step 1: Install Docker
+
+Before running the application, ensure that Docker is installed on your system. You can download and install Docker from [here](https://www.docker.com/get-started).
+
+### Step 2: Clone the Repository
 
 First, clone the repository to your local machine:
 
@@ -44,7 +52,7 @@ git clone https://github.com/venkatbiyyapu/qa-bot.git
 cd qa-bot
 ```
 
-### Step 2: Set Up Environment Variables
+### Step 3: Set Up Environment Variables
 
 Create a `.env` file in the root directory of the project (if not already present) and add your API keys and configurations:
 
@@ -54,7 +62,7 @@ PINECONE_API_KEY=your_pinecone_api_key
 PINECONE_INDEX_NAME=qa-bot-index
 ```
 
-### Step 3: Build the Docker Image
+### Step 4: Build the Docker Image
 
 Run the following command to build the Docker image:
 
@@ -62,7 +70,7 @@ Run the following command to build the Docker image:
 docker-compose build
 ```
 
-### Step 4: Run the Application
+### Step 5: Run the Application
 
 After the build is complete, start the application using:
 
@@ -70,14 +78,14 @@ After the build is complete, start the application using:
 docker-compose up
 ```
 
-### Step 5: Upload PDF Files
+### Step 6: Upload PDF Files
 
 1. Open your web browser and navigate to `http://localhost:8501`.
 2. Upload one or more PDF files using the provided upload interface.
 3. Click on the "Submit & Process" button.
 4. Once you see the success message, you can start asking questions.
 
-### Step 6: Ask Questions
+### Step 7: Ask Questions
 
 In the chat interface, type your questions based on the uploaded PDFs. The bot will use the RAG model to retrieve relevant information and generate responses.
 
@@ -87,10 +95,11 @@ Here is a demo video showcasing the functionality of the QA bot:
 
 [![Watch the video](https://drive.google.com/uc?id=1u7OEDLNzLEOQ8cqcqMJSK8yv7A5QlEF1)](https://drive.google.com/file/d/1eaNpVca17xoyotqRwtozaYiDqRWMA9Gi/view?usp=drive_link)
 
-
-
-
 ## Notes
 
 - Ensure that your environment variables are correctly set before running the application.
 - The application relies on external APIs (Gemini and Pinecone) for embeddings and vector storage, so make sure your API keys are valid and have the necessary permissions.
+
+--- 
+
+Let me know if you need any further changes!
