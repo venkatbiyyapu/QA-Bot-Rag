@@ -1,5 +1,4 @@
-
-# QA Bot README
+# QA Bot
 
 ## Project Overview
 
