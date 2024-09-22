@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Docker
+*.docker
+docker-compose.override.yml
+
+
+# Log files
+*.log
+
+# Python egg files
+*.egg
+*.egg-info/
+
+# Build and distribution files
+build/
+dist/
+*.whl
+
+# Pytest cache
+.cache/
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# Miscellaneous
+*.swp
+*~
