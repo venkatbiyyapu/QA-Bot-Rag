@@ -8,7 +8,6 @@ This project is a Question Answering (QA) bot that allows users to upload multip
 
 ```
 qa-bot/
-│
 ├── gemini_qa_bot.py          # Main application file
 ├── requirements.txt           # List of Python dependencies
 ├── .env                       # Environment variables (API keys and other configurations)
@@ -90,8 +89,6 @@ Here is a demo video showcasing the functionality of the QA bot:
 
 
 
-
-Replace `<video_id>` with the actual ID of your video on YouTube or any other platform where you host the demo.
 
 ## Notes
 
