@@ -95,7 +95,3 @@ Here is a demo video showcasing the functionality of the QA bot:
 
 - Ensure that your environment variables are correctly set before running the application.
 - The application relies on external APIs (Gemini and Pinecone) for embeddings and vector storage, so make sure your API keys are valid and have the necessary permissions.
-
---- 
-
-Let me know if you need any further changes!
