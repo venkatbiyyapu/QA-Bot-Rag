@@ -1,7 +1,3 @@
-Here's the updated README with a note about installing Docker:
-
----
-
 # QA Bot
 
 ## Project Overview
