@@ -89,7 +89,11 @@ In the chat interface, type your questions based on the uploaded PDFs. The bot w
 
 Here is a demo video showcasing the functionality of the QA bot:
 
-[![Watch the video](https://drive.google.com/uc?id=1u7OEDLNzLEOQ8cqcqMJSK8yv7A5QlEF1)](https://drive.google.com/file/d/1eaNpVca17xoyotqRwtozaYiDqRWMA9Gi/view?usp=drive_link)
+
+https://github.com/user-attachments/assets/0ad32555-4e67-4240-ab6e-0231466c4b77
+
+
+
 
 ## Notes 📝
 
